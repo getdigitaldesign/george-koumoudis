@@ -7,7 +7,7 @@ import {
     useColorModeValue,
     VisuallyHidden,
   } from '@chakra-ui/react';
-  import { FaTwitter, FaFacebook, FaLinkedin, FaPinterest, FaYoutube, FaGlobe } from 'react-icons/fa';
+  import { FaStore, FaYelp, FaTwitter, FaFacebook, FaLinkedin, FaPinterest, FaYoutube, FaGlobe } from 'react-icons/fa';
   import { ReactNode } from 'react';
   
   const SocialButton = ({
@@ -68,8 +68,14 @@ import {
             <SocialButton label={'YouTube'} href={'https://www.youtube.com/@GeorgeKoumoudis/'}>
               <FaYoutube />
             </SocialButton>
+            <SocialButton label={'Yelp'} href={'https://www.yelp.com/biz/sgk-contracting-baltimore'} open>
+              <FaYelp />
+            </SocialButton>
             <SocialButton label={'Website'} href={'https://www.sgkcontractinginc.com'} open>
               <FaGlobe />
+            </SocialButton>
+            <SocialButton label={'eLocal'} href={'https://www.elocal.com/profile/sgk-contracting-inc-21910783'} open>
+              <FaStore />
             </SocialButton>
           </Stack>
         </Container>
