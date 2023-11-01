@@ -13,8 +13,8 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Container maxW='container.xl'>
-          {/* <Script
-            src="https://www.googletagmanager.com/gtag/js?id=G-3H0FNRP58L" 
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-E6W0F01L4M" 
             strategy="afterInteractive" 
           />
           <Script id="google-analytics" strategy="afterInteractive">
@@ -23,9 +23,9 @@ export default function Home() {
               function gtag(){window.dataLayer.push(arguments);}
               gtag('js', new Date());
 
-              gtag('config', 'G-3H0FNRP58L');
+              gtag('config', 'G-E6W0F01L4M');
             `}
-          </Script> */}
+          </Script>
             <CallToActionWithVideo />
         </Container>
       <Footer /> 

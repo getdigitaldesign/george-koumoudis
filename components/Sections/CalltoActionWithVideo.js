@@ -45,8 +45,10 @@ const openVideoModal = () => window.open("https://www.youtube.com/@GeorgeKoumoud
                 George Koumoudis,
               </Text>
               <br />
-              <Text as={'span'} color={'red.400'}>
-                Presient, SGK Contracting Inc.
+              <Text as={'span'}>
+                President, 
+                <br /> 
+                SGK Contracting Inc.
               </Text>
             </Heading>
             <Text color={'gray.500'}>
@@ -60,9 +62,9 @@ const openVideoModal = () => window.open("https://www.youtube.com/@GeorgeKoumoud
                 size={'lg'}
                 fontWeight={'normal'}
                 px={6}
-                colorScheme={'red'}
-                bg={'red.400'}
-                _hover={{ bg: 'red.500' }}
+                colorScheme={'blue'}
+                bg={'blue.600'}
+                _hover={{ bg: 'blue.9 00' }}
                 onClick={() => window.open("https://www.facebook.com/sgkcontracting/", '_blank')
               }>
                 SGK Contracting Facebook

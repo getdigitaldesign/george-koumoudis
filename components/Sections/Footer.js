@@ -7,7 +7,7 @@ import {
     useColorModeValue,
     VisuallyHidden,
   } from '@chakra-ui/react';
-  import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa';
+  import { FaTwitter, FaFacebook, FaLinkedin, FaPinterest, FaYoutube, FaGlobe } from 'react-icons/fa';
   import { ReactNode } from 'react';
   
   const SocialButton = ({
@@ -17,6 +17,7 @@ import {
   }) => {
     return (
       <chakra.button
+        target='_blank'
         bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
         rounded={'full'}
         w={8}
@@ -50,16 +51,25 @@ import {
           spacing={4}
           justify={{ base: 'center', md: 'space-between' }}
           align={{ base: 'center', md: 'center' }}>
-          <Text>© 2022 Cowtown Keeylocko. All rights reserved</Text>
+          <Text>© 2023 George Koumoudis | SGK Contracting Inc. All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Twitter'} href={'https://twitter.com/cowtwnkeeylocko'}>
+            <SocialButton label={'Twitter'} href={'https://twitter.com/georgekoumoudis/'}>
               <FaTwitter />
             </SocialButton>
-            <SocialButton label={'Facebook'} href={'https://www.facebook.com/CowtownKeeylocko'}>
+            <SocialButton label={'Facebook'} href={'https://www.facebook.com/sgkcontracting/'}>
               <FaFacebook />
             </SocialButton>
-            <SocialButton label={'Instagram'} href={'https://www.instagram.com/cowtownkeeylocko'}>
-              <FaInstagram />
+            <SocialButton label={'LinkedIn'} href={'https://www.linkedin.com/in/george-koumoudis/'}>
+              <FaLinkedin />
+            </SocialButton>
+            <SocialButton label={'Pinterest'} href={'https://www.pinterest.com/georgekoumoudis/'}>
+              <FaPinterest />
+            </SocialButton>
+            <SocialButton label={'YouTube'} href={'https://www.youtube.com/@GeorgeKoumoudis/'}>
+              <FaYoutube />
+            </SocialButton>
+            <SocialButton label={'Website'} href={'https://www.sgkcontractinginc.com'} open>
+              <FaGlobe />
             </SocialButton>
           </Stack>
         </Container>
