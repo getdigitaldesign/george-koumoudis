@@ -14,7 +14,7 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react';
   
-const openVideoModal = () => window.open("https://www.youtube.com/@GeorgeKoumoudis", '_blank')
+const openVideoModal = () => window.open("https://www.youtube.com/watch?v=1xYPzMfeXHA", '_blank')
 
   export default function CallToActionWithVideo() {
     return (
