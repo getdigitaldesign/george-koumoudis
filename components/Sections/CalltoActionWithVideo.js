@@ -22,10 +22,11 @@ const openVideoModal = () => window.open("https://www.youtube.com/watch?v=1xYPzM
         <Stack
           align={'center'}
           spacing={{ base: 8, md: 10 }}
-          py={{ base: 20, md: 28 }}
+          py={{ base: 5, md: 10 }}
           direction={{ base: 'column', md: 'row' }}>
           <Stack flex={1} spacing={{ base: 5, md: 10 }}>
             <Heading
+              as='h1'
               lineHeight={1.1}
               fontWeight={600}
               fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
@@ -51,9 +52,6 @@ const openVideoModal = () => window.open("https://www.youtube.com/watch?v=1xYPzM
                 SGK Contracting Inc.
               </Text>
             </Heading>
-            <Text color={'gray.500'}>
-            “
-            </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: 'column', sm: 'row' }}>
@@ -64,7 +62,7 @@ const openVideoModal = () => window.open("https://www.youtube.com/watch?v=1xYPzM
                 px={6}
                 colorScheme={'blue'}
                 bg={'blue.600'}
-                _hover={{ bg: 'blue.9 00' }}
+                _hover={{ bg: 'blue.900' }}
                 onClick={() => window.open("https://www.facebook.com/sgkcontracting/", '_blank')
               }>
                 SGK Contracting Facebook

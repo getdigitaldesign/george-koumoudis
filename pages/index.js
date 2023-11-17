@@ -1,8 +1,10 @@
-import Head from 'next/head'
-import Script from 'next/script'
-import { Container } from '@chakra-ui/layout'
-import CallToActionWithVideo from '../components/Sections/CalltoActionWithVideo'
-import Footer from '../components/Sections/Footer'
+import Head from 'next/head';
+import Script from 'next/script';
+import { Container } from '@chakra-ui/layout';
+import CallToActionWithVideo from '../components/Sections/CalltoActionWithVideo';
+import Footer from '../components/Sections/Footer';
+import { NavBar, CardGroup } from '../components/Molecules';
+import { articles } from '../constant/newsArticles';
 
 export default function Home() {
 
@@ -48,7 +50,9 @@ export default function Home() {
               gtag('config', 'G-E6W0F01L4M');
             `}
           </Script>
+            <NavBar />
             <CallToActionWithVideo />
+            <CardGroup  articles={articles} />
         </Container>
       <Footer /> 
     </>
