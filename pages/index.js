@@ -29,6 +29,7 @@ export default function Home() {
         <Head>
           <title>George Koumoudis | SGK Contracting Inc. </title>
           <meta name="description" content="" />
+          <meta name="google-site-verification" content="1xzEhvkWyJpTbkKeasuxKb53beF10mCVZjzsBIzpee0" />
           <link rel="icon" href="/favicon.ico" />
           <script
             type="application/ld+json"
