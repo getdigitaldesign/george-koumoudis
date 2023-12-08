@@ -7,7 +7,7 @@ import {
     useColorModeValue,
     VisuallyHidden,
   } from '@chakra-ui/react';
-  import { FaStore, FaYelp, FaTwitter, FaFacebook, FaLinkedin, FaPinterest, FaYoutube, FaGlobe } from 'react-icons/fa';
+  import { FaStore, FaYelp, FaTwitter, FaFacebook, FaLinkedin, FaPinterest, FaYoutube, FaGlobe, FaMapPin } from 'react-icons/fa';
   import { ReactNode } from 'react';
   
   const SocialButton = ({
@@ -76,6 +76,9 @@ import {
             </SocialButton>
             <SocialButton label={'eLocal'} href={'https://www.elocal.com/profile/sgk-contracting-inc-21910783'} open>
               <FaStore />
+            </SocialButton>
+            <SocialButton label={'MapQuest'} herf={'https://www.mapquest.com/us/maryland/sgk-contracting-inc-353731918'} open>
+              <FaMapPin />
             </SocialButton>
           </Stack>
         </Container>

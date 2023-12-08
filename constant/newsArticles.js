@@ -69,5 +69,62 @@ export const articles = [
         title: 'George Koumoudis: A Remarkable Journey from Roofing Apprentice to Entrepreneur',
         date: '2023-11-01T11:19:40+00:00',
         abstract: 'Join us on a captivating journey through the life of George Koumoudis, an extraordinary individual who embarked on a path of entrepreneurship at the tender age of 13. Rooted in his Greek heritage and childhood experiences, his story unfolds, shaping him into the successful businessman and entrepreneur he is today.'
+    },
+    {
+        url: 'https://closeupbaltimore.com/baltimore/trusted-sgk-contracting-local-baltimore-roofing/',
+        imageUrl: 'https://closeupbaltimore.com/wp-content/uploads/2023/12/Baltimore-City-sgk-contracting.jpg',
+        title: 'Trusted SGK Contracting: Local Baltimore Roofing',
+        date: '2023-12-05',
+        abstract: 'Welcome to SGK Contracting, your trusted local roofing experts in Baltimore! With years of expertise and dedication to excellence, we are committed to providing quality roofing solutions for business owners in the city. Whether you need commercial metal roofing, roof installation, or emergency roof repair, SGK Contracting has got you covered. Read on to discover why we are the top choice for roofing services in Baltimore.',
+        isNew: true
+    },
+    {
+        url:'https://roofers-baltimore-sgk-contracting.vercel.app/',
+        imageUrl: 'https://roofers-baltimore-sgk-contracting.vercel.app/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1518736346281-76873166a64a&w=1920&q=75',
+        title: 'SGK Contracting - Baltimore Roofers Raising the Bar in the Quality of Commercial Roofing.',
+        date: '2023-11-20',
+        abstract: "In the coming years, under Mr. Koumoudis' seasoned leadership, SGK Contracting will continue to refine their craft while adopting innovative techniques and materials for more durable, sustainable roofs. Their growing reputation as reliable Baltimore roofers promises an increased market share in both local and regional landscapes."
+    },
+    {
+        url: 'https://seaweedchronicles.com/baltimore/understanding-the-sgk-contracting-landscape/',
+        imageUrl: 'https://seaweedchronicles.com/wp-content/uploads/2023/12/understanding-the-sgk-contracting-landscape.jpeg',
+        title: 'Understanding the SGK Contracting Landscape',
+        date: '2023-12-03',
+        abstract: 'In the fast-paced world of business, SGK contracting is emerging as a vital force, propelling enterprises to the forefront of innovation and operational efficiency. At its core, SGK contracting is characterized by a unique blend of strategic planning, customer-centric services, and adaptable business models, making it an essential tool for companies looking to gain a competitive edge.'
+    },
+    {
+        url: 'https://motorworksusa.com/maryland/sustainability-in-roofing-how-sgk-contracting-inc-sets-the-standard/',
+        imageUrl: 'https://motorworksusa.com/wp-content/uploads/2023/11/https___imagecdn.copymatic.ai_img-CyUdespZnLy4Wt3JuNBTqiIJ.png',
+        title: 'Sustainability in Roofing: How SGK Contracting Inc. Sets the Standard',
+        date: '2023-11-30',
+        abstract: 'Welcome to the world of sustainable roofing! In an era where environmental consciousness reigns supreme, it’s time to shed some light on how one exceptional company is paving the way for a greener future. Join us as we explore the innovative practices and unwavering commitment of SGK Contracting Inc., an industry leader that sets new standards in sustainability. From their cutting-edge materials to their forward-thinking installation techniques, prepare to be inspired by this trailblazing organization’s dedication towards preserving our beautiful planet – one roof at a time. Get ready, because we’re about to uncover how SGK Contracting Inc. is redefining what it means to build responsibly and sustainably in the roofing industry!'
+    },
+    {
+        url: 'https://original.newsbreak.com/@mazhar-abbas-1821279/3255043166428-your-trusted-partner-for-commercial-roofing-in-baltimore-quality-service-and-expertise-guarante',
+        imageUrl: 'https://img.particlenews.com/image.php?type=thumbnail_580x000&url=1WahbE_0q3rZL0400',
+        title: 'Your Trusted Partner for Commercial Roofing in Baltimore – Quality, Service, and Expertise Guarante',
+        date: '2023-12-06',
+        abstract: 'When it comes to commercial roofing in Baltimore, SGK Contracting sets the standard for unmatched quality. With a commitment to using high-grade materials and adhering to the latest industry standards, SGK Contracting ensures that your commercial property receives a roofing system that stands the test of time. As your trusted partner, they prioritize quality to safeguard your investment and business operations.'
+    },
+    {
+        url: 'https://timebusinessnews.com/sgk-contracting-your-go-to-for-roofing-projects/',
+        imageUrl: 'https://timebusinessnews.com/wp-content/uploads/Screenshot_2023-10-06-17-19-44-66.jpg',
+        title: 'SGK Contracting: Your Go-to for Roofing Projects',
+        date: '2023-10-06',
+        abstract: 'To understand the exceptional services provided by SGK Contracting, it’s crucial to delve into the company’s origin story. SGK Contracting was established by George Koumoudis with a singular vision – to redefine the roofing industry. George, an industry expert with years of experience, set out to create a roofing company that not only delivered top-quality services but also set new standards through innovation and cutting-edge materials. His dedication to providing outstanding roofing solutions has been the driving force behind the company’s success.'
+    },
+    {
+        url: 'https://programminginsider.com/george-koumoudis-revolutionizing-the-roofing-realm/',
+        imageUrl: 'https://programminginsider.com/wp-content/uploads/2023/11/Koum.jpg',
+        title: 'George Koumoudis: Revolutionizing the Roofing Realm',
+        date: '2023-11-18',
+        abstract: 'In the dynamic world of roofing, George Koumoudis, the President of SGK Contracting Inc., stands as a towering figure, reshaping the industry’s landscape. His visionary approach and innovative strides have not only marked a new era in roofing but have also sketched a roadmap for its future.'
+    },
+    {
+        url: 'https://cricfor.com/the-groundbreaking-journey-of-george-koumoudis-and-sgk-contracting/',
+        imageUrl: 'https://cricfor.com/wp-content/uploads/2023/11/homealtafguestpostcartGuestPostCartmediatempec1486ad-8567-42eb-a7ba-5d91f8bdd8f5.jpeg',
+        title: 'The Groundbreaking Journey of George Koumoudis and SGK Contracting',
+        date: '2023-11-22',
+        abstract: 'Explore the transformative saga of George Koumoudis and SGK Contracting Inc., where visionary leadership meets roofing innovation. Koumoudis, as the company’s President, has orchestrated a paradigm shift in the roofing industry, pioneering a future-oriented path with remarkable creativity and progress.'
     }
 ];
