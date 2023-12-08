@@ -28,7 +28,7 @@ export default function Home() {
     <>
         <Head>
           <title>George Koumoudis | SGK Contracting Inc. </title>
-          <meta name="description" content="" />
+          <meta name="description" content="With a solid foundation built over two decades by President George Koumoudis, SGK Contracting is poised to ascend new heights in the future. As one of Baltimore's premier commercial roofing companies, its deep-rooted commitment to quality and customer satisfaction sets it apart." />
           <meta name="google-site-verification" content="1xzEhvkWyJpTbkKeasuxKb53beF10mCVZjzsBIzpee0" />
           <link rel="icon" href="/favicon.ico" />
           <script
