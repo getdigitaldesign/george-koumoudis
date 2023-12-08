@@ -77,7 +77,7 @@ import {
             <SocialButton label={'eLocal'} href={'https://www.elocal.com/profile/sgk-contracting-inc-21910783'} open>
               <FaStore />
             </SocialButton>
-            <SocialButton label={'MapQuest'} herf={'https://www.mapquest.com/us/maryland/sgk-contracting-inc-353731918'} open>
+            <SocialButton label={'MapQuest'} href={'https://www.mapquest.com/us/maryland/sgk-contracting-inc-353731918'} open>
               <FaMapPin />
             </SocialButton>
           </Stack>
