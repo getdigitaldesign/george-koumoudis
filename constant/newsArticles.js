@@ -86,13 +86,6 @@ export const articles = [
         abstract: "In the coming years, under Mr. Koumoudis' seasoned leadership, SGK Contracting will continue to refine their craft while adopting innovative techniques and materials for more durable, sustainable roofs. Their growing reputation as reliable Baltimore roofers promises an increased market share in both local and regional landscapes."
     },
     {
-        url: 'https://seaweedchronicles.com/baltimore/understanding-the-sgk-contracting-landscape/',
-        imageUrl: 'https://seaweedchronicles.com/wp-content/uploads/2023/12/understanding-the-sgk-contracting-landscape.jpeg',
-        title: 'Understanding the SGK Contracting Landscape',
-        date: '2023-12-03',
-        abstract: 'In the fast-paced world of business, SGK contracting is emerging as a vital force, propelling enterprises to the forefront of innovation and operational efficiency. At its core, SGK contracting is characterized by a unique blend of strategic planning, customer-centric services, and adaptable business models, making it an essential tool for companies looking to gain a competitive edge.'
-    },
-    {
         url: 'https://motorworksusa.com/maryland/sustainability-in-roofing-how-sgk-contracting-inc-sets-the-standard/',
         imageUrl: 'https://motorworksusa.com/wp-content/uploads/2023/11/https___imagecdn.copymatic.ai_img-CyUdespZnLy4Wt3JuNBTqiIJ.png',
         title: 'Sustainability in Roofing: How SGK Contracting Inc. Sets the Standard',
